@@ -1,0 +1,163 @@
+\documentclass[a4paper,12pt,twoside,openright,titlepage]{book}
+
+%Additional packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[dutch,english]{babel}
+\usepackage{imakeidx}
+\usepackage{syntonly}
+\usepackage[official]{eurosym}
+%\usepackage[graphicx]
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float}
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=, pdfauthor=, pdfsubject=, pdfkeywords=}
+\usepackage{tabularx}
+\usepackage[table]{xcolor} % Table colors
+\usepackage{scrextend}
+\addtokomafont{labelinglabel}{\sffamily}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage{color}
+
+% Define colors
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+
+% Listing style
+\lstset{
+  backgroundcolor=\color{ashgrey}, % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=true,          % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,	                   % adds a frame around the code
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  columns=fullflexible,		   % make copy and paste possible
+  showstringspaces=false,          % if true show spaces in strings adding particular underscores
+  showspaces=false,                % if true show spaces everywhere adding particular underscores; it does not override 'showstringspaces'
+}
+
+% Uncomment for production
+% \syntaxonly
+
+% Style
+\pagestyle{headings}
+
+% Turn on indexing
+\makeindex[intoc]
+
+% Define document
+\author{D. Leeuw}
+\title{Computer Elektrotechniek}
+\date{\today\\v.0.1.0}
+
+\begin{document}
+\selectlanguage{dutch}
+
+\maketitle
+
+\copyright\ 2023 Dennis Leeuw\\
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{CC-BY-SA-NC.png}
+\end{figure}
+
+\bigskip
+
+\input{src/licentie}
+
+%%%%%%%%%%%%%%%%%%%
+%%% Introductie %%%
+%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\chapter{Over dit Document}
+\input{src/OverDitDocument}
+\input{src/DocChanges}
+
+%%%%%%%%%%%%%%%%%
+%%% De inhoud %%%
+%%%%%%%%%%%%%%%%%
+\tableofcontents
+
+\mainmatter
+\chapter{Inleiding}
+\input{src/inleiding}
+
+\chapter{Elektriciteit: stroom, spanning en vermogen}
+\input{src/elektriciteit_intro}
+\section{Stroom}
+\input{src/stroom}
+\section{Spanning}
+\input{src/spanning}
+\section{De wet van Ohm}
+\input{src/ohm}
+\section{Vermogen}
+\input{src/vermogen}
+
+% Requires:
+% Provides:
+\chapter{Componenten}
+\input{src/componenten_intro}
+\section{Lamp}
+\input{src/lamp}
+\section{Batterij}
+\input{src/batterij}
+% Requires: Lamp
+\section{Geleider}
+\input{src/geleider}
+% Requires: geleider
+\section{Isolator}
+\input{src/isolator}
+% Requires: Lamp
+\section{Schakelaar}
+\input{src/schakelaar}
+\section{Circuit}
+\input{src/circuit}
+% Requires: Schakelaar
+\section{Zekering}
+\input{src/zekering}
+\section{Aardlekschakelaar}
+%%% FIXME
+\section{Weerstand}
+\input{src/weerstand}
+% Requires: Weerstand, Isolator, Batterij
+\section{Condensator}
+\input{src/condensator}
+\section{Diode}
+\input{src/diode-led}
+\section{Transistor}
+\input{src/transistor}
+\section{Spoel}
+\input{src/spoel}
+\section{Transformator}
+\input{src/transformator}
+
+\chapter{Boolean Algebra}
+\input{src/boolean_intro}
+\section{NOT - Inverter}
+\input{src/not}
+\section{AND}
+\input{src/and}
+\section{NAND}
+\input{src/nand}
+\section{OR}
+\input{src/or}
+\section{NOR}
+\input{src/nor}
+\section{XOR}
+\input{src/xor}
+\section{XNOR}
+\input{src/xnor}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% Index and End %%%
+%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\printindex
+\end{document}
+
+%%% Last line %%%

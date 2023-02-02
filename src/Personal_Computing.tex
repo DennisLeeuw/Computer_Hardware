@@ -1,0 +1,205 @@
+\documentclass[a4paper,12pt,twoside,openright,titlepage]{book}
+
+%Additional packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[dutch,english]{babel}
+\usepackage{imakeidx}
+\usepackage{syntonly}
+\usepackage[official]{eurosym}
+%\usepackage[graphicx]
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float}
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=, pdfauthor=, pdfsubject=, pdfkeywords=}
+\usepackage{tabularx}
+\usepackage{scrextend}
+\addtokomafont{labelinglabel}{\sffamily}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage{color}
+\usepackage{siunitx} % On Debian do install texlive-science
+
+% Create inch
+\DeclareSIUnit[number-unit-product = {}]{\inch}{\textquotedbl}
+
+% Define colors
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+
+% Listing style
+\lstset{
+  backgroundcolor=\color{ashgrey}, % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=true,          % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,	                   % adds a frame around the code
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  columns=fullflexible,		   % make copy and paste possible
+  showstringspaces=false,          % if true show spaces in strings adding particular underscores
+  showspaces=false,                % if true show spaces everywhere adding particular underscores; it does not override 'showstringspaces'
+}
+
+% Uncomment for production
+% \syntaxonly
+
+% Style
+\pagestyle{headings}
+
+% Turn on indexing
+\makeindex[intoc]
+
+% Define document
+\author{D. Leeuw}
+\title{Personal Computing}
+\date{\today\\v.0.1.0}
+
+\begin{document}
+\selectlanguage{dutch}
+
+\maketitle
+
+\copyright\ 2023 Dennis Leeuw\\
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{CC-BY-SA-NC.png}
+\end{figure}
+
+\bigskip
+
+\input{src/licentie}
+
+%%%%%%%%%%%%%%%%%%%
+%%% Introductie %%%
+%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\chapter{Over dit Document}
+\input{src/OverDitDocument_PC}
+\input{src/DocChanges_PC}
+
+%%%%%%%%%%%%%%%%%
+%%% De inhoud %%%
+%%%%%%%%%%%%%%%%%
+\tableofcontents
+
+% Requires Elektrotechniek
+
+\mainmatter
+\chapter{Inleiding}
+\input{src/computers_intro}
+\section{Een stukje geschiedenis}
+\input{src/computers_history}
+
+% Requires: 
+% Provides: Case
+\chapter{De computerkast (behuizing)}
+\section{PC}
+\section{Laptop}
+\section{Tablet}
+\section{Telefoon}
+\section{Ventilatie}
+
+% Requires: Case
+% Provides: PSU
+\chapter{De voeding}
+\section{Aansluiten voeding}
+\section{Batterij}
+
+% Requires: case
+% Provides: Ports
+\chapter{Poorten}
+\section{Video}
+\section{USB}
+\section{FireWire}
+\section{Thunderbolt}
+\section{PS/2}
+
+% Requires: Ports
+\chapter{KVM}
+\section{Keyboard}
+\section{Displays}
+\subsection{Touch screen}
+\section{Muis}
+\section{TrackPad}
+\section{Aansluiten KVM}
+
+% Requires:
+% Provides: CPU concept, Memory Concept
+\chapter{De conceptuele werking}
+\section{CPU}
+\subsection{Registers}
+\subsection{Clock}
+\subsection{Bussen}
+\section{Geheugen}
+
+% Requires: CPU Concept
+% Provides: CPU Innerworkings
+\chapter{CPU's}
+\section{ALU}
+
+% Requires: Memory Concept, CPU Concept
+% Provides: RAM types
+\chapter{RAM - het geheugen}
+\section{Address bus}
+\section{DRAM}
+\section{SRAM}
+\section{SDRAM}
+\section{RDRAM}
+\section{DDR}
+
+% Requires: RAM types, CPU Concept
+% Provides: Motherboard, Chipset, Expansion slots
+\chapter{Het moederbord}
+\section{CPU socket}
+\section{RAM socket}
+\section{Chipset}
+\section{Beeldscherm aansturing}
+\section{Uitbreidingssloten}
+\section{Mass storage connections}
+\subsection{PATA}
+\subsection{SATA}
+\subsection{eSATA}
+\subsection{SCSI}
+\subsection{SAS}
+\section{Moederbord installatie}
+
+% Provides: Mass Storage
+\chapter{Mass Storage}
+\section{Harddisk}
+\section{SSD}
+\section{CD}
+\section{DVD}
+\section{USB-sticks}
+\section{SD}
+
+% Requires: Harddisk
+% Provides: OS
+\chapter{Besturingssysteem}
+\section{Master Boot Record}
+\section{Partities}
+\section{Bootable}
+\section{Bestandssystemen}
+
+% Requires: Motherboard, Mass Storage
+% Provides: Bootstrapping, Clock, BIOS, UEFI, RTC, POST
+\chapter{Boot strapping / Firmware}
+\section{BIOS/UEFI}
+\section{CMOS}
+\section{RTC}
+\section{POST}
+
+\chapter{Uitbreidingskaarten}
+\section{Installeren van uitbreidingskaarten}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% Index and End %%%
+%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\printindex
+\end{document}
+
+%%% Last line %%%

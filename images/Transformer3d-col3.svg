@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 762.82 572.59"
+   version="1.0"
+   sodipodi:docname="Transformer3d-col3.svg"
+   inkscape:export-filename="/home/dennis/Boeken/Computer_Elektrotechniek/images/Transformer3d-col3.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs316" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     id="namedview314"
+     showgrid="false"
+     inkscape:zoom="1.4023996"
+     inkscape:cx="524.83801"
+     inkscape:cy="286.295"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     id="layer1"
+     transform="translate(7.7431737,7.3051221)">
+    <rect
+       id="rect1509"
+       height="579.54999"
+       width="773.26001"
+       y="-3.4223001"
+       x="-12.146"
+       fill="#ffffff" />
+    <g
+       id="g4919"
+       transform="translate(0,-6)">
+      <path
+         id="path9913"
+         stroke="#000000"
+         stroke-width="1.8"
+         fill="none"
+         d="m 48.618,175.05 48.869,5.21" />
+      <path
+         id="path4036"
+         fill-rule="evenodd"
+         d="m 107.4,181.17 -10.369,-4.67 -0.796,6.85 z" />
+    </g>
+    <path
+       id="path2408"
+       stroke-linejoin="round"
+       d="m 203.2,58.435 -9.69,8.789 v 375.79 c 0,5.36 4.32,10.08 9.69,10.58 l 374.91,34.78 c 5.36,0.5 9.68,-3.42 9.68,-8.79 v -377.78 c 0,-5.364 -4.32,-10.085 -9.68,-10.583 L 210.59,57.125 c -4.3,-0.61 -5.71,0.09 -7.39,1.314 z m 78.28,70.825 218.34,20.26 c 5.37,0.49 9.69,5.22 9.69,10.58 v 246.66 c 0,5.37 -4.32,9.29 -9.69,8.79 L 281.48,395.29 c -5.37,-0.5 -9.69,-5.22 -9.69,-10.58 V 138.05 c 0,-5.37 4.32,-9.29 9.69,-8.79 z"
+       stroke="#141414"
+       stroke-width="2"
+       fill="#8a98a2" />
+    <path
+       id="rect6041"
+       stroke-linejoin="round"
+       d="M 578.94,92.411 534.89,135.13 152.3,103.62 197.19,63.854 c 1.27,-1.014 6.66,-5.961 7.62,-6.268"
+       stroke="#000000"
+       stroke-linecap="square"
+       stroke-width="1.8"
+       fill="#acb6be" />
+    <rect
+       id="rect3408"
+       transform="matrix(0.71647,-0.69761,0,1,0,0)"
+       rx="0.59899002"
+       ry="30.650999"
+       height="385.09"
+       width="61.303001"
+       stroke="#000000"
+       y="671.87"
+       x="759.29999"
+       stroke-width="2.1265"
+       fill="#8a98a2" />
+    <path
+       id="rect1306"
+       stroke-linejoin="round"
+       d="m 160.12,100.34 c -5.36,-0.494 -9.68,3.43 -9.68,8.79 v 377.78 c 0,5.37 4.32,10.09 9.68,10.59 l 374.91,34.78 c 5.37,0.5 9.69,-3.42 9.69,-8.79 V 145.71 c 0,-5.37 -4.32,-10.09 -9.69,-10.58 z m 78.29,72.83 218.34,20.26 c 5.37,0.49 9.69,5.21 9.69,10.58 v 246.66 c 0,5.36 -4.32,9.28 -9.69,8.79 L 238.41,439.2 c -5.37,-0.5 -9.69,-5.22 -9.69,-10.59 V 181.96 c 0,-5.37 4.32,-9.29 9.69,-8.79 z"
+       stroke="#141414"
+       stroke-width="2"
+       fill="#acb6be" />
+    <path
+       id="path17799"
+       stroke-width="0"
+       fill-rule="evenodd"
+       fill="#00a000"
+       d="m 286.6,133.46 12.53,13.54 -14.31,9.46" />
+    <text
+       id="text21564"
+       style="text-align:center;text-anchor:middle"
+       xml:space="preserve"
+       font-size="16px"
+       line-height="125%"
+       y="261.6044"
+       x="71.990723"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">      <tspan
+   id="tspan21566"
+   y="261.6044"
+   x="71.990723">Primary</tspan>       <tspan
+   id="tspan21568"
+   y="281.6044"
+   x="71.990723">voltage</tspan>           </text>
+    <text
+       id="text21574"
+       font-size="16px"
+       line-height="125%"
+       xml:space="preserve"
+       font-style="oblique"
+       y="302.59082"
+       x="57.986748"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan21576"
+   y="302.59082"
+   x="57.986748">V</tspan>    </text>
+    <text
+       id="text21578"
+       font-size="12px"
+       line-height="125%"
+       xml:space="preserve"
+       font-style="oblique"
+       y="308.2128"
+       x="65.277908"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan21580"
+   y="308.2128"
+   x="65.277908">P</tspan>    </text>
+    <text
+       id="text21588"
+       font-size="16px"
+       xml:space="preserve"
+       line-height="100%"
+       y="319.6044"
+       x="618.83154"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan21590"
+   y="319.6044"
+   x="618.83154">Secondary</tspan>       <tspan
+   id="tspan21592"
+   y="335.6044"
+   x="618.83154">voltage</tspan>       <tspan
+   id="tspan21594"
+   font-size="16px"
+   line-height="100%"
+   y="351.6044"
+   x="618.83154"
+   font-family="'Bitstream Vera Sans'" />    </text>
+    <g
+       id="g21612"
+       font-style="oblique"
+       font-family="'Bitstream Vera Sans'"
+       transform="translate(2,-2)">
+      <text
+         id="text21598"
+         font-size="16px"
+         xml:space="preserve"
+         line-height="125%"
+         y="362.59082"
+         x="643.63898">         <tspan
+   id="tspan21600"
+   y="362.59082"
+   x="643.63898">V</tspan>      </text>
+      <text
+         id="text21602"
+         font-size="12px"
+         xml:space="preserve"
+         line-height="125%"
+         y="368.2128"
+         x="650.93011">         <tspan
+   id="tspan21604"
+   y="368.2128"
+   x="650.93011">S</tspan>      </text>
+    </g>
+    <path
+       id="path24729"
+       stroke="#000000"
+       stroke-width="1px"
+       fill="none"
+       d="m 656.39,371.18 v 57.69" />
+    <text
+       id="text23158"
+       font-size="16px"
+       xml:space="preserve"
+       line-height="125%"
+       y="136.37944"
+       x="38.059799"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan23160"
+   y="136.37944"
+   x="38.059799">Primary</tspan>       <tspan
+   id="tspan23162"
+   y="156.37944"
+   x="38.059799">current</tspan>       <tspan
+   id="tspan23164"
+   font-size="16px"
+   line-height="125%"
+   y="176.37944"
+   x="38.059799"
+   font-family="'Bitstream Vera Sans'" />    </text>
+    <text
+       id="text23168"
+       font-size="16px"
+       line-height="125%"
+       xml:space="preserve"
+       font-style="oblique"
+       y="178.94801"
+       x="117.70935"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan23170"
+   y="178.94801"
+   x="117.70935">I</tspan>    </text>
+    <text
+       id="text23172"
+       font-size="12px"
+       line-height="125%"
+       xml:space="preserve"
+       font-style="oblique"
+       y="184.56999"
+       x="121.00052"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan23174"
+   y="184.56999"
+   x="121.00052">P</tspan>    </text>
+    <text
+       id="text24686"
+       style="text-align:center;text-anchor:middle"
+       xml:space="preserve"
+       font-size="16px"
+       line-height="125%"
+       y="168.37944"
+       x="663.00793"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan24688"
+   y="168.37944"
+   x="663.00793">Secondary</tspan>       <tspan
+   id="tspan24690"
+   y="188.37944"
+   x="663.00793">current</tspan>       <tspan
+   id="tspan24692"
+   style="text-align:center;text-anchor:middle"
+   font-size="16px"
+   line-height="125%"
+   y="208.37944"
+   x="663.00793"
+   font-family="'Bitstream Vera Sans'" />    </text>
+    <text
+       id="text24702"
+       font-size="16px"
+       line-height="125%"
+       xml:space="preserve"
+       font-style="oblique"
+       y="214.82059"
+       x="608.86786"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan24704"
+   y="214.82059"
+   x="608.86786">I</tspan>    </text>
+    <text
+       id="text24706"
+       font-size="12px"
+       line-height="125%"
+       xml:space="preserve"
+       font-style="oblique"
+       y="220.44257"
+       x="612.15906"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan24708"
+   y="220.44257"
+   x="612.15906">S</tspan>    </text>
+    <text
+       id="text6325"
+       style="text-align:center;text-anchor:middle"
+       font-family="'Bitstream Vera Sans'"
+       xml:space="preserve"
+       font-size="20px"
+       line-height="125%"
+       y="45.691597"
+       x="75.004219"
+       font-weight="bold"
+       fill="#ff3232">       <tspan
+   id="tspan6327"
+   y="45.691597"
+   x="75.004219">Primary</tspan>       <tspan
+   id="tspan6329"
+   y="70.691597"
+   x="75.004219">winding</tspan>    </text>
+    <text
+       id="text21618"
+       font-size="16px"
+       line-height="125%"
+       xml:space="preserve"
+       font-style="oblique"
+       y="94.869705"
+       x="43.427887"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan21622"
+   y="94.869705"
+   x="43.427887">N</tspan>       <tspan
+   id="tspan3265"
+   y="114.86971"
+   x="43.427887" />       <tspan
+   id="tspan21624"
+   font-size="16px"
+   font-style="oblique"
+   y="134.86971"
+   x="43.427887"
+   font-family="'Bitstream Vera Sans'"
+   line-height="125%" />    </text>
+    <text
+       id="text21626"
+       font-size="12px"
+       line-height="125%"
+       xml:space="preserve"
+       y="100.71141"
+       x="54.643066"
+       font-family="'Bitstream Vera Sans'"
+       font-style="oblique"
+       fill="#000000">       <tspan
+   id="tspan21628"
+   y="100.71141"
+   x="54.643066">P</tspan>    </text>
+    <text
+       id="text3305"
+       font-size="16px"
+       xml:space="preserve"
+       line-height="125%"
+       y="94.869705"
+       x="69.427887"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan3307"
+   y="94.869705"
+   x="69.427887">turns</tspan>       <tspan
+   id="tspan3309"
+   y="114.86971"
+   x="69.427887" />       <tspan
+   id="tspan3311"
+   font-size="16px"
+   font-style="oblique"
+   y="134.86971"
+   x="69.427887"
+   font-family="'Bitstream Vera Sans'"
+   line-height="125%" />    </text>
+    <g
+       id="g1501"
+       font-family="'Bitstream Vera Sans'"
+       transform="translate(6,23.562)">
+      <text
+         id="text21639"
+         font-size="16px"
+         line-height="125%"
+         xml:space="preserve"
+         y="82.699783"
+         x="619.77759"
+         font-style="oblique">         <tspan
+   id="tspan21641"
+   y="82.699783"
+   x="619.77759">N</tspan>         <tspan
+   id="tspan3313"
+   y="102.69978"
+   x="619.77759" />         <tspan
+   id="tspan21643"
+   font-size="16px"
+   font-style="oblique"
+   y="122.69978"
+   x="619.77759"
+   font-family="'Bitstream Vera Sans'"
+   line-height="125%" />      </text>
+      <text
+         id="text21645"
+         font-size="12px"
+         line-height="125%"
+         xml:space="preserve"
+         font-style="oblique"
+         y="88.541489"
+         x="630.99274">         <tspan
+   id="tspan21647"
+   y="88.541489"
+   x="630.99274">S</tspan>      </text>
+      <text
+         id="text3315"
+         font-size="16px"
+         xml:space="preserve"
+         line-height="125%"
+         y="82.699783"
+         x="643.77759">         <tspan
+   id="tspan3317"
+   y="82.699783"
+   x="643.77759">turns</tspan>         <tspan
+   id="tspan3319"
+   y="102.69978"
+   x="643.77759" />         <tspan
+   id="tspan3321"
+   font-size="16px"
+   font-style="oblique"
+   y="122.69978"
+   x="643.77759"
+   font-family="'Bitstream Vera Sans'"
+   line-height="125%" />      </text>
+    </g>
+    <flowRoot
+       id="flowRoot1527"
+       xml:space="preserve"
+       transform="translate(22,20)">
+      <flowRegion
+   id="flowRegion1529" />
+      <flowPara
+   id="flowPara1533" />
+    </flowRoot>
+    <text
+       id="text1523"
+       font-size="23.59px"
+       font-family="'Times New Roman'"
+       xml:space="preserve"
+       transform="skewY(5.7287457)"
+       line-height="125%"
+       y="131.82202"
+       x="375.32993"
+       font-weight="bold"
+       font-style="italic"
+       fill="#00a000">       <tspan
+   id="tspan1525"
+   y="131.82202"
+   x="375.32993">Φ</tspan>    </text>
+    <text
+       id="text6146"
+       font-size="20px"
+       font-family="'Bitstream Vera Sans'"
+       xml:space="preserve"
+       transform="skewY(5.2463585)"
+       line-height="100%"
+       y="114.47475"
+       x="305.47006"
+       font-weight="bold"
+       fill="#00a000">       <tspan
+   id="tspan54893"
+   y="114.47475"
+   x="305.47006">Magnetic</tspan>       <tspan
+   id="tspan54895"
+   y="134.47475"
+   x="305.47006">Flux,</tspan>    </text>
+    <path
+       id="rect43515"
+       stroke-linejoin="round"
+       d="m 418.06,158 37.53,4.39 c 31.97,3.73 57.71,32.73 57.71,65 v 217.66 c 0,32.28 -25.74,55.26 -57.71,51.52 l -36.64,-2.44 M 269.12,476.79 242.1,473.63 C 210.13,469.89 184.39,438.9 184.39,406.62 V 190.96 c 0,-32.28 25.74,-53.26 57.71,-49.52 l 49.18,3.75"
+       stroke="#00a000"
+       stroke-dasharray="31.8917, 7.97293"
+       stroke-width="8"
+       fill="none" />
+    <path
+       id="path2570"
+       stroke-linejoin="round"
+       d="m 690.6,446.62 -102.92,-9.5"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path2568"
+       stroke-linejoin="round"
+       d="m 587.8,286.04 7.06,0.84 c 2.14,0.21 -47.71,49.64 -50.53,49.36 l -70.41,-7.29 -10.19,-1.24 c -2.6,-0.13 -1.49,-8.04 2.25,-7.71"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path2566"
+       stroke-linejoin="round"
+       d="m 587.8,321.64 7.06,0.84 c 2.14,0.21 -47.71,49.64 -50.53,49.36 l -70.41,-7.29 -10.19,-1.24 c -2.6,-0.13 -1.49,-8.04 2.25,-7.71"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path2564"
+       stroke-linejoin="round"
+       d="m 587.8,357.24 7.06,0.84 c 2.14,0.21 -47.71,49.64 -50.53,49.36 l -70.41,-7.29 -10.19,-1.24 c -2.6,-0.13 -1.49,-8.04 2.25,-7.71"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path2562"
+       stroke-linejoin="round"
+       d="m 587.8,392.84 7.06,0.84 c 2.14,0.21 -47.71,49.64 -50.53,49.36 l -70.41,-7.29 -10.19,-1.24 c -2.6,-0.13 -1.49,-8.04 2.25,-7.71"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path2560"
+       stroke-linejoin="round"
+       d="m 681.81,238.54 -137.48,-13.5 -70.41,-7.29 -10.19,-1.24 c -2.6,-0.13 -1.49,-8.04 2.25,-7.71"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path2558"
+       stroke-linejoin="round"
+       d="m 587.8,250.44 7.06,0.84 c 2.14,0.21 -47.71,49.64 -50.53,49.36 l -70.41,-7.29 -10.19,-1.24 c -2.6,-0.13 -1.49,-8.04 2.25,-7.71"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path6142"
+       stroke-linejoin="round"
+       d="m 587.8,214.84 7.06,0.84 c 2.14,0.21 -47.71,49.64 -50.53,49.36 l -70.41,-7.29 -10.19,-1.24 c -2.6,-0.13 -1.49,-8.04 2.25,-7.71"
+       stroke="#3232ff"
+       stroke-width="5"
+       fill="none" />
+    <path
+       id="path6163"
+       stroke-linejoin="round"
+       d="m 269.06,176.09 c -5.5,5.55 -13.67,13.2 -19.65,18.84 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 m 121.17,-16.54 c 1.88,0.27 3.71,0.62 3.71,0.62 2.15,0.21 -15.01,16.21 -25.47,26.07 -10.47,9.86 -20.22,21.13 -23.04,20.84 l -68.43,-6.84 -9.5,-0.93 c -1.85,-1.2 -1.19,-7.9 1.56,-8.02 M 254.62,174.81 c -1.83,1.73 -3.6,3.4 -5.21,4.92 -10.47,9.86 -20.22,21.13 -23.04,20.84 L 157.94,193.73 48.52,182.29 M 150.33,394.94 48.52,384.29"
+       stroke="#ff3232"
+       stroke-width="2"
+       fill="none" />
+    <text
+       id="text16411"
+       style="text-align:center;text-anchor:middle"
+       font-family="'Bitstream Vera Sans'"
+       xml:space="preserve"
+       transform="skewY(5.2463585)"
+       font-size="18px"
+       y="447.16898"
+       x="341.47006"
+       font-weight="bold"
+       line-height="125%"
+       fill="#000000">       <tspan
+   id="tspan17291"
+   y="447.16898"
+   x="341.47006">Transformer</tspan>       <tspan
+   id="tspan17293"
+   y="469.66898"
+   x="341.47006">Core</tspan>    </text>
+    <text
+       id="text35645"
+       style="text-align:center;text-anchor:middle"
+       font-family="'Bitstream Vera Sans'"
+       xml:space="preserve"
+       font-size="20px"
+       line-height="125%"
+       y="57.253677"
+       x="661.00421"
+       font-weight="bold"
+       fill="#3232ff">       <tspan
+   id="tspan35651"
+   y="57.253677"
+   x="661.00421">Secondary</tspan>       <tspan
+   id="tspan35653"
+   y="82.253677"
+   x="661.00421">winding</tspan>    </text>
+    <path
+       id="path45268"
+       stroke-width="0"
+       fill-rule="evenodd"
+       fill="#00a000"
+       d="m 427.36,482.34 -13.07,11.14 12.83,12.22" />
+    <g
+       id="g4032">
+      <path
+         id="path21654"
+         stroke="#000000"
+         stroke-width="1px"
+         fill="none"
+         d="M 73.09,247.88 V 199.92" />
+      <path
+         id="path4030"
+         fill-rule="evenodd"
+         d="m 73.187,192.38 -3.45,10.84 h 6.9 z" />
+    </g>
+    <g
+       id="g4923"
+       transform="matrix(0.99986,-0.016951,0.016951,0.99986,577.73,42.194)">
+      <path
+         id="path4925"
+         stroke="#000000"
+         stroke-width="1.8"
+         fill="none"
+         d="m 48.618,175.05 48.869,5.21" />
+      <path
+         id="path4927"
+         fill-rule="evenodd"
+         d="m 107.4,181.17 -10.369,-4.67 -0.796,6.85 z" />
+    </g>
+    <path
+       id="path4931"
+       stroke="#000000"
+       stroke-width="1px"
+       fill="none"
+       d="M 656.67,307.01 V 250.83" />
+    <path
+       id="path4933"
+       fill-rule="evenodd"
+       d="m 656.39,240.9 -3.45,10.84 h 6.9 z" />
+    <g
+       id="g1973"
+       transform="rotate(180,73.14,285.71)">
+      <path
+         id="path1975"
+         stroke="#000000"
+         stroke-width="1px"
+         fill="none"
+         d="M 73.09,259.96 V 199.92" />
+      <path
+         id="path1977"
+         fill-rule="evenodd"
+         d="m 73.187,192.38 -3.45,10.84 h 6.9 z" />
+    </g>
+    <path
+       id="path1985"
+       fill-rule="evenodd"
+       d="m 656.48,438.32 3.45,-10.84 h -6.9 z" />
+    <text
+       id="text1987"
+       style="text-align:center;text-anchor:middle"
+       xml:space="preserve"
+       font-size="24.055px"
+       line-height="125%"
+       y="217.10292"
+       x="108.57301"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan1993"
+   style="text-align:center;text-anchor:middle"
+   font-size="24.055px"
+   line-height="125%"
+   y="217.10292"
+   x="108.57301"
+   font-family="'Bitstream Vera Sans'">+</tspan>    </text>
+    <text
+       id="text1999"
+       style="text-align:center;text-anchor:middle"
+       xml:space="preserve"
+       font-size="24.046px"
+       line-height="125%"
+       y="260.8241"
+       x="635.79266"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan2001"
+   style="text-align:center;text-anchor:middle"
+   font-size="24.046px"
+   line-height="125%"
+   y="260.8241"
+   x="635.79266"
+   font-family="'Bitstream Vera Sans'">+</tspan>    </text>
+    <text
+       id="text2003"
+       style="text-align:center;text-anchor:middle"
+       xml:space="preserve"
+       font-size="24.055px"
+       line-height="125%"
+       y="431.34833"
+       x="633.41486"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan2005"
+   style="text-align:center;text-anchor:middle"
+   font-size="24.055px"
+   line-height="125%"
+   y="431.34833"
+   x="633.41486"
+   font-family="'Bitstream Vera Sans'">−</tspan>    </text>
+    <text
+       id="text2007"
+       style="text-align:center;text-anchor:middle"
+       xml:space="preserve"
+       font-size="24.055px"
+       line-height="125%"
+       y="378.6817"
+       x="111.43221"
+       font-family="'Bitstream Vera Sans'"
+       fill="#000000">       <tspan
+   id="tspan2009"
+   style="text-align:center;text-anchor:middle"
+   font-size="24.055px"
+   line-height="125%"
+   y="378.6817"
+   x="111.43221"
+   font-family="'Bitstream Vera Sans'">−</tspan>    </text>
+  </g>
+  <metadata
+     id="metadata311">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Transformer</dc:title>
+        <dc:date>2013-07-17T04:56:55</dc:date>
+        <dc:description>Transformer</dc:description>
+        <dc:source>https://openclipart.org/detail/180944/transformer-by-zinka-180944</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>zinka</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Transformer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
