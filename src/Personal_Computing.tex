@@ -55,14 +55,14 @@
 % Define document
 \author{D. Leeuw}
 \title{Personal Computing}
-\date{\today\\v.0.0.1}
+\date{\today\\v.0.0.6}
 
 \begin{document}
 \selectlanguage{dutch}
 
 \maketitle
 
-\copyright\ 2023 Dennis Leeuw\\
+\copyright\ 2023 Mees Pronk \& Dennis Leeuw\\
 
 \begin{figure}
 \includegraphics[width=0.3\textwidth]{CC-BY-SA-NC.png}
@@ -97,15 +97,18 @@
 % Requires: 
 % Provides: Case
 \chapter{De computerkast (behuizing)}
-\section{PC}
+\input{src/cases}
 \section{Laptop}
 \section{Tablet}
 \section{Telefoon}
+\section{PC}
+\input{src/behuizing}
 \section{Ventilatie}
 
 % Requires: Case
 % Provides: PSU
 \chapter{De voeding}
+\input{src/voeding}
 \section{Aansluiten voeding}
 \section{Batterij}
 
@@ -131,6 +134,7 @@
 % Provides: CPU concept, Memory Concept
 \chapter{De conceptuele werking}
 \section{CPU}
+\input{src/cpu}
 \subsection{Registers}
 \subsection{Clock}
 \subsection{Bussen}
@@ -154,6 +158,7 @@
 % Requires: RAM types, CPU Concept
 % Provides: Motherboard, Chipset, Expansion slots
 \chapter{Het moederbord}
+\input{src/moederbord}
 \section{CPU socket}
 \section{RAM socket}
 \section{Chipset}
@@ -189,6 +194,7 @@
 \chapter{Boot strapping / Firmware}
 \section{BIOS/UEFI}
 \section{CMOS}
+\input{src/cmos}
 \section{RTC}
 \section{POST}
 
