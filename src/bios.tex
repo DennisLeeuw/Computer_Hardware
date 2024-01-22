@@ -1,0 +1,18 @@
+Op het moederbord zit een chip die software bevat. Zodra de computer aan gezet wordt en de spanning stabiel is wordt deze software gestart en voert deze de POST uit. Deze software is ook bekend als het BIOS of in modernere machines UEFI.
+
+BIOS\index{BIOS} staat voor Binary Input/Output System\index{Binary Input/Output System} en is sinds de 1980's de manier om te zorgen dat alle hardware in een stand komt te staan zodat het besturingssysteem de computer kan gebruiken. Er zijn verschillende leveranciers van BIOS systemen: AMI, Award, Phoenix. Naast de commerciele varianten zijn er tegenwoordig ook open source versies beschikbaar.
+
+UEFI\index{UEFI} is de Unified Extensible Firmware Interface\index{Unified Extensible Firmware Interface}, de opvolger van het BIOS. Omdat het BIOS al zo oud is bevat het veel onderdelen die niet meer van deze tijd zijn en mist het juist zaken die nu zeer gewenst zijn. Intel kwam met de oplossing: EFI dat al snel opgevolgd werd daar UEFI.
+
+We zullen in de rest van de tekst spreken van BIOS, maar de functies die we beschrijven gelden ook voor UEFI.
+
+De taken van het BIOS zijn 3-ledig:
+\begin{enumerate}
+\item initialisatie van de hardware
+\item zoeken van een werkende opstart methode
+\item laden van bootloader
+\end{enumerate}
+
+Daarnaast biedt het BIOS nog wat functies aan aan het OS zodat deze de functies kan gebruiken om de hardware aan te spreken, een soort device drivers, maar de meeste besturingssystemen maken hier geen gebruik meer van en hebben hun eigen manieren om de hardware aan te spreken.
+
+De initialisatie van de hardware wordt gedaan in het POST\index{POST}-proces, ofwel de Power On Self Test\index{Power On Self Test}. Zoals de naam al zegt is dit een test van het systeem nadat de spanning aan gegaan is.
