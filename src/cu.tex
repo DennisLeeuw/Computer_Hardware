@@ -1,0 +1,10 @@
+De Control Unit is de eenheid die binnen de CPU zorg draagt voor de timing en stuursignalen. De CU is o.a. verantwoordelijk voor de communicatie tussen de CPU en de rest van de wereld. De hoofdtaak van de CU is het doorlopen van het volgende proces:
+\begin{enumerate}
+\item Fetch the instruction
+\item Fetch the operands
+\item Decode the instruction (naar ALU of FPU)
+\item Execute the instruction
+\item Als de status ok is, schrijf het resultaat weg naar het geheugen
+\item Als de status niet ok is, handel de error af
+\end{enumerate}
+
