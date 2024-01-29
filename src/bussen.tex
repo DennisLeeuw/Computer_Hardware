@@ -1,7 +1,21 @@
 De CPU is gekoppeld met drie bussen aan de rest van de wereld. De drie bussen zijn:
-\begin{itemize}
-\item [Address bus] Selecteert een adres in het geheugen, de enen en nullen op de draden bepalen welk adres geselecteerd is. Is bijvoorbeeld 32 of 64 bits breed en geeft aan wat voor architectuur we hebben.
+\begin{description}
+\item [Address bus] Selecteert een adres in het geheugen, de enen en nullen op de draden bepalen welk adres geselecteerd is. Is bijvoorbeeld 32, 36, 48 of 64 bits breed en bepaalt daarmee de maximale hoeveelheid geheugen die kan worden aangesproken.
 \item [Control bus] Geeft aan wat er met de data op het adres moet gebeuren (bijvoorbeeld lezen of schrijven). Bijvoorbeeld 8 bits, afhankelijk van de hoeveelheid instructies die een processor moet ondersteunen.
-\item [Data bus] Bus waarover de data getransporteerd wordt. Is bijvoorbeeld 32, 64, 128 bits breed en bepaalt daarmee de maximale hoeveelheid geheugen die kan worden aangesproken.
-\end{itemize}
+\item [Data bus] Bus waarover de data getransporteerd wordt. Is bijvoorbeeld 32 of 64 bits breed en geeft aan wat voor architectuur we hebben.
+\end{description}
+
+\begin{center}
+	\begin{tabular}{ |c|c|c|c| }
+		\hline
+		Systeem & Databus & Adresbus & Max geheugen \\
+		\hline\hline
+		\multirow{2}{*}{32 bits} & \multirow{2}{*}{32 bits} & 32 bits & 4 GB \\
+		& & 36 bits & 64 GB \\
+		\hline
+		\multirow{2}{*}{64 bits} & \multirow{2}{*}{64 bits} & 48 bits & 256 TB \\
+		& & 64 bits & 16 EB \\
+		\hline
+	\end{tabular}
+\end{center}
 
