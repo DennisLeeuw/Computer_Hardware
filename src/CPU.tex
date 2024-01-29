@@ -21,6 +21,8 @@
 \usepackage{adjustbox}
 \usepackage{color}
 \usepackage{siunitx} % On Debian do install texlive-science
+\usepackage{csquotes}
+\usepackage{multirow}
 
 % Create inch
 \DeclareSIUnit[number-unit-product = {}]{\inch}{\textquotedbl}
@@ -55,7 +57,7 @@
 % Define document
 \author{D. Leeuw}
 \title{CPU}
-\date{\today\\v.0.6.0}
+\date{\today\\v.0.8.0}
 
 \begin{document}
 \selectlanguage{dutch}
@@ -101,6 +103,7 @@
 \input{src/fpu}
 \section{CU}
 \input{src/cu}
+\input{src/cpu-instructies}
 \section{Registers}
 \input{src/registers}
 
@@ -109,6 +112,20 @@
 \input{src/bussen}
 \section{Cache}
 \input{src/cpu-cache}
+
+\chapter{CPU optimalisatie}
+\section{Overclocking}
+\input{src/cpu-overclocking}
+\section{CPU Throtteling}
+\input{src/cpu-throtteling}
+\section{Cores}
+\input{src/cpu-cores}
+\section{Pipeline optimalisatie}
+\input{src/pipeline_thread}
+
+\chapter{Opdrachten}
+\section{Verzamel CPU informatie vanuit het OS}
+\input{src/cpu-opdracht_cpu-info}
 
 %%%%%%%%%%%%%%%%%%%%%
 %%% Index and End %%%
