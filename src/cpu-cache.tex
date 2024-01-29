@@ -1,7 +1,9 @@
 De CPU kent verschillende soorten cache:
 \begin{itemize}
-\item De L1 (level 1) cache is cache het dichtst op de rekeneenheden (ALU en FPU). Deze cache bestaat uit een cache voor instructies en een cache voor data.
-\item Er is ook een L2 cache. Dit is een gedeelde cache voor data en instructies.
+\item De L1 (level 1) cache is cache het dichtst op de rekeneenheden (ALU en FPU). Deze cache bestaat uit een cache voor instructies en een cache voor data. Dit is na de General Purpose registers het snelste geheugen, maar er is het minst van aanwezig.
+\item Er is ook een L2 cache. Dit is een gedeelde cache voor data en instructies. Is groter dan L1 cache, maar ook trager.
 \item Tot slot is er nog een L3 cache die gedeeld wordt tussen de verschillende cores in een CPU.
 \end{itemize}
+
+De reden voor de toevoeging van cache aan het systeem is gebeurd omdat de CPU steeds sneller werd en de snelheid van het RAM daarin achterbleef. Cache is sneller dan RAM en dient daarom als buffer tussen de CPU en het RAM-geheugen.
 
