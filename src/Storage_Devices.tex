@@ -1,0 +1,134 @@
+\documentclass[a4paper,12pt,twoside,openright,titlepage]{book}
+
+%Additional packages
+\usepackage[ascii]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[dutch,english]{babel}
+\usepackage{syntonly}
+\usepackage[official]{eurosym}
+%\usepackage[graphicx]
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float}
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=, pdfauthor=, pdfsubject=, pdfkeywords=}
+\usepackage{tabularx}
+\usepackage{scrextend}
+\addtokomafont{labelinglabel}{\sffamily}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage{color}
+\usepackage{csquotes}
+
+%define inch
+\usepackage{mathpazo,amsmath}
+\def\inch#1{#1''}
+
+% Turn on indexing
+\usepackage{imakeidx}
+\makeindex
+
+% Define colors
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+
+% Listing style
+\lstset{
+  backgroundcolor=\color{ashgrey},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,	                   % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+}
+
+% Uncomment for production
+% \syntaxonly
+
+% Style
+\pagestyle{headings}
+
+%%%%%%%%%%%%%%%%%%
+% Begin document %
+%%%%%%%%%%%%%%%%%%
+
+% Define document
+\author{D. Leeuw}
+\title{Storage Devices}
+\date{\today\\v.0.6.0}
+
+\begin{document}
+\selectlanguage{dutch}
+
+\maketitle
+
+\copyright\ 2021-2024 Dennis Leeuw\\
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{CC-BY-SA-NC.png}
+\end{figure}
+
+\bigskip
+
+\input{src/licentie}
+
+%%%%%%%%%%%%%%%%%%%
+%%% Introductie %%%
+%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\chapter{Over dit Document}
+
+%%%%%%%%%%%%%%%%%
+%%% De inhoud %%%
+%%%%%%%%%%%%%%%%%
+\tableofcontents
+
+\mainmatter
+
+\chapter{Introductie}
+\input{src/storage-intro}
+
+\chapter{Block devices}
+\input{src/block_devices}
+\section{Harddisks}
+\input{src/harddisk}
+\section{Flash memory}
+\input{src/flash_memory}
+\section{SSD - Solid State Drive}
+\input{src/ssd}
+\section{CD}
+\section{DVD}
+\section{Blu-Ray}
+
+\chapter{Streaming devices}
+\input{src/streaming_devices}
+\section{Tape}
+\input{src/tape}
+
+\chapter{Storage interfaces}
+\section{IDE - Integrated Drive Electronics}\index{IDE}\index{Integrated Drive Electronics}\index{PATA}\index{ATA}\index{Parallel Advanced Technology Attachement}
+\input{src/ide}
+\section{SATA - Serial ATA}\index{SATA}\index{Serial ATA}
+\section{SCSI - Small Computer Systems Interface}\index{SCSI}\index{Small Computer Systems Interface}
+\input{src/scsi}
+\section{SAS - Serial Attached SCSI}\index{SAS}\index{Serial Attached SCSI}
+\section{USB - Universal Serial Bus}\index{USB}\index{Universal Serial Bus}
+
+% FIXME ... waar hoort dit thuis?
+\chapter{DAS en JBOD}\index{DAS}\index{Direct Attached Storage}\index{JBOD}\index{Just a Bunch Of Disks}
+\input{src/das}
+\section{JBOD - Just a Bunch Of Disks}
+\input{src/jbod}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% Index and End %%%
+%%%%%%%%%%%%%%%%%%%%%
+%\backmatter
+\printindex
+\end{document}
+
+%%% Last line %%%
