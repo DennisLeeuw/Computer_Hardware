@@ -6,20 +6,20 @@ Een core handelt instructies \'e\'en voor \'e\'en af. Als we een simpel stappen 
 \item Execute instruction
 \item Write output of instruction to RAM
 \end{enumerate}
-Dan kunnen we per clock tick een stap nemen. We kunnen ook per clock tick twee stappen doen. We kunnen namelijk bij de opgaande vlank van de clock een instructie doen en \'e\'en bij de neergaande vlank. Dit heet superpipelining. Een stap bij de opgaande en bij de neergaande vlank heet een sub-stage. Er zitten dus 2 sub-stages in 1 clock cycle. Met sub-stage maken we de processor twee keer zo snel.
+Dan kunnen we per clock tick een stap nemen. We kunnen ook per clock tick twee stappen doen. We kunnen namelijk bij de opgaande flank van de clock een instructie doen en \'e\'en bij de neergaande flank. Dit heet superpipelining. Een stap bij de opgaande en bij de neergaande flank heet een sub-stage. Er zitten dus 2 sub-stages in 1 clock cycle. Met sub-stage maken we de processor twee keer zo snel.
 
 Als we deze processen parallel doen in meerdere cores kunnen we spreken van een Superscalar Architecture.
 
 Met voldoende registers kunnen we nog meer stappen tegelijk doen:
 \begin{description}
-\item [Clock tick 1 opgaande vlank] Haal operand A1 uit RAM en plaats in register A (adresbus, databus en controlbus bezet, register A bezet)
-\item [Clock tick 1 neergaande vlank] Haal operand B1 op uit RAM en plaats in register B (adresbus, databus en controlbus bezet, register A en B bezet)
-\item [Clock tick 2 opgaande vlank] Haal de instructie 1 op uit RAM en plaats in register C (adresbus, databus en controlbus bezet, register A, B en C bezet)
-\item [Clock tick 2 neergaande vlank] Decodeer instructie 1 en haal operand A2 op uit RAM en plaats in register D (adresbus, databuse en controlbus bezet, register A,B,C en D bezet)
-\item [clock tick 3 opgaande vlank] Voer instructie 1 uit en plaats resultaat en de status in registers E en F en we halen operand A2 op uit RAM en plaatsen het in register G (adresbus, databus en controlbus bezet, register D,E,F en G bezet)
-\item [clock tick 3 neergaande vlank] Haal instructie 2 op uit RAM en plaats in register C (adresbus, databus en controlbus bezet, register C,D,E,F en G bezet)
-\item [clock tick 4 opgaande vlank] Decode instructie 2 en write output instructie 1 naar RAM (adresbus, databus en controlbus bezet, register C,D en G bezet)
-\item [Clock tick 4 neergaande vlank] Voer instructie 2 uit op registers D en G en stop resultaat en status in A en B, haal operand A3 op uit RAM en plaats in E (adresbus, databus en controlbus bezet, registers A,B en E bezet)
+\item [Clock tick 1 opgaande flank] Haal operand A1 uit RAM en plaats in register A (adresbus, databus en controlbus bezet, register A bezet)
+\item [Clock tick 1 neergaande flank] Haal operand B1 op uit RAM en plaats in register B (adresbus, databus en controlbus bezet, register A en B bezet)
+\item [Clock tick 2 opgaande flank] Haal de instructie 1 op uit RAM en plaats in register C (adresbus, databus en controlbus bezet, register A, B en C bezet)
+\item [Clock tick 2 neergaande flank] Decodeer instructie 1 en haal operand A2 op uit RAM en plaats in register D (adresbus, databuse en controlbus bezet, register A,B,C en D bezet)
+\item [clock tick 3 opgaande flank] Voer instructie 1 uit en plaats resultaat en de status in registers E en F en we halen operand A2 op uit RAM en plaatsen het in register G (adresbus, databus en controlbus bezet, register D,E,F en G bezet)
+\item [clock tick 3 neergaande flank] Haal instructie 2 op uit RAM en plaats in register C (adresbus, databus en controlbus bezet, register C,D,E,F en G bezet)
+\item [clock tick 4 opgaande flank] Decode instructie 2 en write output instructie 1 naar RAM (adresbus, databus en controlbus bezet, register C,D en G bezet)
+\item [Clock tick 4 neergaande flank] Voer instructie 2 uit op registers D en G en stop resultaat en status in A en B, haal operand A3 op uit RAM en plaats in E (adresbus, databus en controlbus bezet, registers A,B en E bezet)
 \item etc.
 \end{description}
 Op deze manier kunnen er meerdere instructies tegelijk uitgevoerd worden. Binnen een externe clock tick gebeurt er in de CPU meer dan je bij 1 clock tick zou verwachten. Ook kunnen opdrachten misschien wel vast uitgevoerd worden op de FPU terwijl de ALU bezig is, zo kan er nog veel meer parallel.
